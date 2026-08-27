@@ -1,0 +1,10 @@
+zone,zone_label,ap_id,x_m,y_m,z_m,band,channel,width_mhz,standard,tx_power_dbm,coverage_radius_m,path_loss_exponent,reference_loss_db,notes
+library,Main Library,LIB-AP-01,30,40,3.0,2.4GHz,1,20,802.11n,20.0,25,3.2,40.0,Ground floor reading area; concrete walls
+library,Main Library,LIB-AP-02,30,40,3.0,5GHz,42,80,802.11ac,20.0,20,3.2,46.68,Co-located dual-band radio on same physical AP
+ccs_hub,CCS Study Hub,CCS-AP-01,90,40,3.0,2.4GHz,6,20,802.11n,20.0,20,3.0,40.0,Highest observed client density
+ccs_hub,CCS Study Hub,CCS-AP-02,90,40,3.0,5GHz,106,80,802.11ac,20.0,18,3.0,46.68,Co-located dual-band radio
+gym,University Gymnasium,GYM-AP-01,150,40,6.0,2.4GHz,11,20,802.11n,23.0,40,2.6,40.0,High ceiling; few obstructions; open hall
+gym,University Gymnasium,GYM-AP-02,150,40,6.0,5GHz,42,80,802.11ac,23.0,30,2.6,46.68,Co-located dual-band radio
+lawn,Campus Lawn,LAWN-AP-01,60,110,4.5,2.4GHz,1,20,802.11n,23.0,60,2.2,40.0,Outdoor pole mount; near free-space propagation
+college,College Building,COL-AP-01,90,90,3.0,2.4GHz,6,20,802.11n,20.0,22,3.4,40.0,Representative classroom corridor AP
+college,College Building,COL-AP-02,90,90,3.0,5GHz,58,80,802.11ac,20.0,18,3.4,46.68,Co-located dual-band radio

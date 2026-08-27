@@ -1,0 +1,11 @@
+zone,zone_label,period,measured_clients,throughput_per_client_mbps,mean_latency_ms,jitter_ms,packet_loss_pct,measured_mos,source
+library,Main Library,offpeak,10,8.50,22,4,0.3,4.1,PLACEHOLDER - replace with site survey
+library,Main Library,peak,60,1.10,168,38,4.8,2.4,PLACEHOLDER - replace with site survey
+ccs_hub,CCS Study Hub,offpeak,10,9.20,19,3,0.2,4.2,PLACEHOLDER - replace with site survey
+ccs_hub,CCS Study Hub,peak,60,0.85,205,46,6.5,2.1,PLACEHOLDER - replace with site survey
+gym,University Gymnasium,offpeak,10,7.40,28,6,0.6,3.9,PLACEHOLDER - replace with site survey
+gym,University Gymnasium,peak,80,0.60,240,55,8.1,1.9,PLACEHOLDER - replace with site survey
+lawn,Campus Lawn,offpeak,10,5.10,35,8,1.2,3.6,PLACEHOLDER - replace with site survey
+lawn,Campus Lawn,peak,40,1.30,150,33,4.2,2.5,PLACEHOLDER - replace with site survey
+college,College Building,offpeak,10,8.00,24,5,0.4,4.0,PLACEHOLDER - replace with site survey
+college,College Building,peak,60,1.00,180,41,5.4,2.3,PLACEHOLDER - replace with site survey

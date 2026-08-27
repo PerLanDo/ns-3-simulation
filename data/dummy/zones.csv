@@ -1,0 +1,6 @@
+zone,zone_label,area_shape,radius_m,environment,path_loss_exponent,reference_loss_db,reference_loss_5g_db,fading,notes
+library,Main Library,disc,25,indoor,3.2,40.0,46.68,nakagami,Dense seated users; concrete walls raise the exponent
+ccs_hub,CCS Study Hub,disc,18,indoor,3.0,40.0,46.68,nakagami,Small high-density room; heavy laptop use
+gym,University Gymnasium,disc,40,indoor_open,2.6,40.0,46.68,nakagami,Large open volume; fewer obstructions but long distances
+lawn,Campus Lawn,disc,60,outdoor,2.2,40.0,46.68,none,Near free-space propagation; pole-mounted APs
+college,College Building,disc,30,indoor,3.4,40.0,46.68,nakagami,Corridor and classroom walls; worst-case indoor exponent

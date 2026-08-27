@@ -1,0 +1,17 @@
+zone,zone_label,period,n_sta,sweep_ladder,notes
+library,Main Library,offpeak,10,yes,Early morning; sparse occupancy
+library,Main Library,moderate,30,yes,Mid-morning study period
+library,Main Library,peak,60,yes,Midterms week evening
+library,Main Library,stress,100,yes,Synthetic worst case for capacity headroom
+ccs_hub,CCS Study Hub,offpeak,10,yes,Between class blocks
+ccs_hub,CCS Study Hub,moderate,30,yes,Regular lab hours
+ccs_hub,CCS Study Hub,peak,60,yes,Project deadline crunch
+ccs_hub,CCS Study Hub,stress,100,yes,Synthetic worst case
+gym,University Gymnasium,offpeak,10,no,Ordinary training day
+gym,University Gymnasium,moderate,30,no,PE class in session
+gym,University Gymnasium,peak,80,no,Intramurals or assembly
+lawn,Campus Lawn,offpeak,10,no,Casual outdoor use
+lawn,Campus Lawn,peak,40,no,Organization fair or event day
+college,College Building,offpeak,10,no,Between classes
+college,College Building,moderate,30,no,Single lecture room occupied
+college,College Building,peak,60,no,Multiple adjacent rooms in session

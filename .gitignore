@@ -1,0 +1,54 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+.streamlit/secrets.toml
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ns-3 build outputs and caches
+ns-3.48/build/
+ns-3.48/cmake-cache/
+ns-3.48/.lock-ns3*
+ns-3.48/cmake_install.cmake
+ns-3.48/CMakeCache.txt
+ns-3.48/CMakeFiles/
+ns-3.48/*.pcap
+ns-3.48/*.log
+**/cmake-build-*/
+**/.ccache/
+
+# Simulation / analysis outputs (keep dummy inputs under data/)
+data/results/
+data/output/
+*.pcap
+*.out
+*.csv.bak

@@ -1,0 +1,4 @@
+traffic_class,share,tos_hex,access_category,rate_kbps,packet_bytes,transport,latency_budget_ms,loss_budget_pct,notes
+browsing,0.60,0x00,AC_BE,1500,1000,UDP,150,2.0,Web pages LMS portal file downloads; bursty best effort
+video,0.30,0xb8,AC_VI,4000,1200,UDP,100,1.0,Lecture recordings and streaming platforms
+voip,0.10,0xc0,AC_VO,64,160,UDP,50,0.5,Online class audio calls; strictest jitter requirement
